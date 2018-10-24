@@ -4,13 +4,13 @@ import java.util.ArrayList;
 
 public class Edge {
     String archetype;
-    ArrayList<String> attributes;
+    ArrayList<EdgeAttribute> attributes;
     int from;
     int id;
     String text;
     int to;
 
-    public Edge(String archetype, ArrayList<String> attributes, int from, int id, String text, int to) {
+    public Edge(String archetype, ArrayList<EdgeAttribute> attributes, int from, int id, String text, int to) {
         this.archetype = archetype;
         this.attributes = attributes;
         this.from = from;
@@ -27,11 +27,11 @@ public class Edge {
         this.archetype = archetype;
     }
 
-    public ArrayList<String> getAttributes() {
+    public ArrayList<EdgeAttribute> getAttributes() {
         return attributes;
     }
 
-    public void setAttributes(ArrayList<String> attributes) {
+    public void setAttributes(ArrayList<EdgeAttribute> attributes) {
         this.attributes = attributes;
     }
 

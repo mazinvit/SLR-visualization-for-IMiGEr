@@ -1,7 +1,5 @@
 package cz.zcu.kiv.fjp.entities;
 
-import java.util.ArrayList;
-
 public class Node {
     int id;
     String title;

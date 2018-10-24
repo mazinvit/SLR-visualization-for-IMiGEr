@@ -1,11 +1,11 @@
 package cz.zcu.kiv.fjp.entities;
 
-public class AtributeType {
+public class AttributeType {
     String dataType;
     String name;
     String text;
 
-    public AtributeType(String dataType, String name, String text) {
+    public AttributeType(String dataType, String name, String text) {
         this.dataType = dataType;
         this.name = name;
         this.text = text;

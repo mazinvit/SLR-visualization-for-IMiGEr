@@ -1,7 +1,9 @@
 package cz.zcu.kiv.fjp;
 
 import cz.zcu.kiv.fjp.entities.EdgeArchetype;
+import cz.zcu.kiv.fjp.entities.Node;
 import cz.zcu.kiv.fjp.entities.VertexArchetype;
+import sun.security.provider.certpath.Vertex;
 
 import java.util.ArrayList;
 
@@ -14,13 +16,9 @@ public class Serializer {
     }
 
     public void serializeAutomaton(String outpurFile) {
-        ArrayList<VertexArchetype> vertexArchetypes = new ArrayList<VertexArchetype>();
-        vertexArchetypes.add(new VertexArchetype("", "state", ""));
-        vertexArchetypes.add(new VertexArchetype("", "acc", ""));
-        vertexArchetypes.add(new VertexArchetype("", "reduce", ""));
-        ArrayList<EdgeArchetype> edgeArchetypes = new ArrayList<EdgeArchetype>();
-        edgeArchetypes.add(new EdgeArchetype("reduce", ""));
-        edgeArchetypes.add(new EdgeArchetype("shift", ""));
+
+        ArrayList<Vertex> vertices = new ArrayList<Vertex>();
+
 
 
     }
