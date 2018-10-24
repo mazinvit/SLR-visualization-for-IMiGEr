@@ -2,7 +2,9 @@ package cz.zcu.kiv.fjp;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.databind.module.SimpleModule;
 import cz.zcu.kiv.fjp.entities.*;
+import cz.zcu.kiv.fjp.utils.NodeSerializer;
 import sun.security.provider.certpath.Vertex;
 
 import java.io.File;
@@ -32,7 +34,12 @@ public class Serializer {
 
         try {
             ObjectMapper om = new ObjectMapper();
+
+            SimpleModule module = new SimpleModule();
+            module.addSerializer(Node.class, new NodeSerializer());
+            om.registerModule(module);
             om.enable(SerializationFeature.INDENT_OUTPUT);
+
             StringBuilder sb = new StringBuilder();
 
             sb.append("{\n");
