@@ -43,7 +43,7 @@ public class Parser {
 
             //TODO atributes
 
-            parsed.add(new Node(id, (String) node.getAttribute("label")));
+            //parsed.add(new Node(id, (String) node.getAttribute("label")));
         }
 
 
