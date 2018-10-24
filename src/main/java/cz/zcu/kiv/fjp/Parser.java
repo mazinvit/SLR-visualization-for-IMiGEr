@@ -19,13 +19,15 @@ public class Parser {
     List<EdgeArchetype> edgeArchetypes;
     List<VertexArchetype> vertexArchetypes;
     List<AttributeType> attributeTypes;
+    int edgeId;
 
     public Parser(String inputFile, String outputFile) {
         try {
             parser = new GraphParser(new FileInputStream(new File(inputFile)));
-            defineEdgeArchetypes();
-            defineVertexArchetypes();
-            defineAttributeTypes();
+            defineEdgeArchetypesSLR();
+            defineVertexArchetypesSLR();
+            defineAttributeTypesSLR();
+            edgeId = 0;
         }
 
         catch (FileNotFoundException fe) {
@@ -33,7 +35,7 @@ public class Parser {
         }
     }
 
-    public List<Node> parseNodes() {
+    public List<Node> parseNodesSLR() {
         List<Node> parsed = new ArrayList<Node>();
         Map<String, GraphNode> nodes = parser.getNodes();
 
@@ -59,7 +61,7 @@ public class Parser {
         return parsed;
     }
 
-    public List<Edge> parseEdges() {
+    public List<Edge> parseEdgesSLR() {
         List<Edge> parsed = new ArrayList<Edge>();
         Map<String, GraphEdge> edges = parser.getEdges();
 
@@ -69,7 +71,7 @@ public class Parser {
             String edgeType = (String) edge.getAttribute("style");
             String edgeLabel = (String) edge.getAttribute("label");
             int from = getNodeID(edge.getNode1());
-            int id = Integer.parseInt(edge.getId());
+            int id = edgeId++;
             int to = getNodeID(edge.getNode2());
 
             edgeAttributes = new ArrayList<EdgeAttribute>();
@@ -94,22 +96,22 @@ public class Parser {
         return((int) Integer.parseInt(node.getId()));
     }
 
-    private void defineAttributeTypes() {
+    private void defineAttributeTypesSLR() {
         attributeTypes = new ArrayList<AttributeType>();
         attributeTypes.add(new AttributeType("string", "label", ""));
     }
 
-    private void defineEdgeArchetypes() {
+    private void defineEdgeArchetypesSLR() {
         this.edgeArchetypes = new ArrayList<EdgeArchetype>();
         edgeArchetypes.add(new EdgeArchetype("reduce", ""));
         edgeArchetypes.add(new EdgeArchetype("shift", ""));
     }
 
-    private void defineVertexArchetypes() {
+    private void defineVertexArchetypesSLR() {
         this.vertexArchetypes = new ArrayList<VertexArchetype>();
-        vertexArchetypes.add(new VertexArchetype("", "state", ""));
-        vertexArchetypes.add(new VertexArchetype("", "acc", ""));
-        vertexArchetypes.add(new VertexArchetype("", "reduce", ""));
+        vertexArchetypes.add(new VertexArchetype("state", ""));
+        vertexArchetypes.add(new VertexArchetype( "acc", ""));
+        vertexArchetypes.add(new VertexArchetype( "reduce", ""));
     }
 
     public List<EdgeArchetype> getEdgeArchetypes() {

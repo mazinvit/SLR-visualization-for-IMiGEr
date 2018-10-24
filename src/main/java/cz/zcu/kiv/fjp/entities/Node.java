@@ -6,7 +6,7 @@ public class Node {
     String text;
     int archetype;
     //ArrayList<String> attributes;
-
+    //TODO empty object attributes
 
     public Node(int id, String title, String text, int archetype) {
         this.id = id;

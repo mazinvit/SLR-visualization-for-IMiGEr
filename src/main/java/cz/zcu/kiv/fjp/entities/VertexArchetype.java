@@ -1,22 +1,12 @@
 package cz.zcu.kiv.fjp.entities;
 
 public class VertexArchetype {
-    String icon;
     String name;
     String text;
 
-    public VertexArchetype(String icon, String name, String text) {
-        this.icon = icon;
+    public VertexArchetype(String name, String text) {
         this.name = name;
         this.text = text;
-    }
-
-    public String getIcon() {
-        return icon;
-    }
-
-    public void setIcon(String icon) {
-        this.icon = icon;
     }
 
     public String getName() {

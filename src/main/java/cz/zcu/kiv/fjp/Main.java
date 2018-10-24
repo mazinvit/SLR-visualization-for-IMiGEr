@@ -24,8 +24,10 @@ public class Main {
                 String outputFile = args[1];
 
                 Parser parser = new Parser(graphFile, outputFile);
+                //parser.parseNodes();
                 Serializer serializer = new Serializer(parser);
-                serializer.serialize(outputFile);
+                serializer.serializeAutomaton(outputFile);
+                //serializer.serialize(outputFile);
 
                 /*
                 List<Node> nodes = parser.parseNodes();
