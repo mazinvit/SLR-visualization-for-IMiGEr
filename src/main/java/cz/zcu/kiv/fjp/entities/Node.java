@@ -1,12 +1,20 @@
 package cz.zcu.kiv.fjp.entities;
 
+import java.util.ArrayList;
+
 public class Node {
     int id;
-    String label;
+    String title;
+    String text;
+    int archetype;
+    //ArrayList<String> attributes;
 
-    public Node(int id, String label) {
+
+    public Node(int id, String title, String text, int archetype) {
         this.id = id;
-        this.label = label;
+        this.title = title;
+        this.text = text;
+        this.archetype = archetype;
     }
 
     public int getId() {
@@ -17,11 +25,27 @@ public class Node {
         this.id = id;
     }
 
-    public String getLabel() {
-        return label;
+    public String getTitle() {
+        return title;
     }
 
-    public void setLabel(String label) {
-        this.label = label;
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public int getArchetype() {
+        return archetype;
+    }
+
+    public void setArchetype(int archetype) {
+        this.archetype = archetype;
     }
 }
