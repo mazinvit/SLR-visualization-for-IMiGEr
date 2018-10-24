@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import cz.zcu.kiv.fjp.entities.*;
 import cz.zcu.kiv.fjp.utils.NodeSerializer;
+import cz.zcu.kiv.fjp.utils.SLREdgeSerializer;
 import sun.security.provider.certpath.Vertex;
 
 import java.io.File;
@@ -37,6 +38,7 @@ public class Serializer {
 
             SimpleModule module = new SimpleModule();
             module.addSerializer(Node.class, new NodeSerializer());
+            module.addSerializer(Edge.class, new SLREdgeSerializer());
             om.registerModule(module);
             om.enable(SerializationFeature.INDENT_OUTPUT);
 
@@ -56,15 +58,14 @@ public class Serializer {
             sb.append(",\n");
 
             sb.append("\"verticies\": \n");
-            sb.append(om.writeValueAsString(nodes));
+            String nodesJson = om.writeValueAsString(nodes);
+            nodesJson = nodesJson.replace("\"dummy\" : \"dummy\"", " ");
+            sb.append(nodesJson);
             sb.append(",\n");
 
             sb.append("\"edges\": \n");
             String edgesJson = om.writeValueAsString(edges);
-            /*
-            edgesJson.replace('[', ' ');
-            edgesJson.replace(']', ' ');
-            */
+            edgesJson = edgesJson.replace("attrstring", "0");
             sb.append(edgesJson);
             sb.append("\n");
 

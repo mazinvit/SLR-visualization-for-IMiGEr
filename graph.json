@@ -26,191 +26,218 @@
 } ],
 "verticies": 
 [ {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
   "id" : 32939890,
-  "title" : "R3",
   "text" : "",
-  "archetype" : 2
+  "title" : "R3"
 }, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
   "id" : 32939921,
-  "title" : "R4",
   "text" : "",
-  "archetype" : 2
+  "title" : "R4"
 }, {
+  "archetype" : 1,
+  "attributes" : {
+     
+  },
   "id" : 33058961,
-  "title" : "Acc",
   "text" : "",
-  "archetype" : 1
+  "title" : "Acc"
 }, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
   "id" : 33088783,
-  "title" : "R1",
   "text" : "",
-  "archetype" : 2
+  "title" : "R1"
 }, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
   "id" : 33118605,
-  "title" : "R2",
   "text" : "",
-  "archetype" : 2
+  "title" : "R2"
 }, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
   "id" : 0,
-  "title" : "State 0\\n\\l  0 $accept: . exp $end\\l",
   "text" : "",
-  "archetype" : 0
+  "title" : "State 0\\n\\l  0 $accept: . exp $end\\l"
 }, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
   "id" : 1,
-  "title" : "State 1\\n\\l  3 a: \"0\" .\\l  4 b: \"0\" .\\l",
   "text" : "",
-  "archetype" : 0
+  "title" : "State 1\\n\\l  3 a: \"0\" .\\l  4 b: \"0\" .\\l"
 }, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
   "id" : 2,
-  "title" : "State 2\\n\\l  0 $accept: exp . $end\\l",
   "text" : "",
-  "archetype" : 0
+  "title" : "State 2\\n\\l  0 $accept: exp . $end\\l"
 }, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
   "id" : 3,
-  "title" : "State 3\\n\\l  1 exp: a . \";\"\\l",
   "text" : "",
-  "archetype" : 0
+  "title" : "State 3\\n\\l  1 exp: a . \";\"\\l"
 }, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
   "id" : 4,
-  "title" : "State 4\\n\\l  2 exp: b . \".\"\\l",
   "text" : "",
-  "archetype" : 0
+  "title" : "State 4\\n\\l  2 exp: b . \".\"\\l"
 }, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
   "id" : 5,
-  "title" : "State 5\\n\\l  0 $accept: exp $end .\\l",
   "text" : "",
-  "archetype" : 0
+  "title" : "State 5\\n\\l  0 $accept: exp $end .\\l"
 }, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
   "id" : 6,
-  "title" : "State 6\\n\\l  1 exp: a \";\" .\\l",
   "text" : "",
-  "archetype" : 0
+  "title" : "State 6\\n\\l  1 exp: a \";\" .\\l"
 }, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
   "id" : 7,
-  "title" : "State 7\\n\\l  2 exp: b \".\" .\\l",
   "text" : "",
-  "archetype" : 0
+  "title" : "State 7\\n\\l  2 exp: b \".\" .\\l"
 } ],
 "edges": 
 [ {
-  "archetype" : "0",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : "\"0\""
-  } ],
+  "archetype" : 0,
   "from" : 0,
+  "attributes" : {
+    "0" : "\"0\""
+  },
   "id" : 0,
-  "text" : "",
-  "to" : 1
+  "to" : 1,
+  "text" : ""
 }, {
-  "archetype" : "1",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : "exp"
-  } ],
+  "archetype" : 1,
   "from" : 0,
+  "attributes" : {
+    "0" : "exp"
+  },
   "id" : 1,
-  "text" : "",
-  "to" : 2
+  "to" : 2,
+  "text" : ""
 }, {
-  "archetype" : "1",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : "a"
-  } ],
+  "archetype" : 1,
   "from" : 0,
+  "attributes" : {
+    "0" : "a"
+  },
   "id" : 2,
-  "text" : "",
-  "to" : 3
+  "to" : 3,
+  "text" : ""
 }, {
-  "archetype" : "1",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : "b"
-  } ],
+  "archetype" : 1,
   "from" : 0,
+  "attributes" : {
+    "0" : "b"
+  },
   "id" : 3,
-  "text" : "",
-  "to" : 4
+  "to" : 4,
+  "text" : ""
 }, {
-  "archetype" : "0",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : ""
-  } ],
+  "archetype" : 0,
   "from" : 1,
+  "attributes" : {
+    "0" : ""
+  },
   "id" : 4,
-  "text" : "",
-  "to" : 32939890
+  "to" : 32939890,
+  "text" : ""
 }, {
-  "archetype" : "0",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : "[\".\"]"
-  } ],
+  "archetype" : 0,
   "from" : 1,
+  "attributes" : {
+    "0" : "[\".\"]"
+  },
   "id" : 5,
-  "text" : "",
-  "to" : 32939921
+  "to" : 32939921,
+  "text" : ""
 }, {
-  "archetype" : "0",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : "$end"
-  } ],
+  "archetype" : 0,
   "from" : 2,
+  "attributes" : {
+    "0" : "$end"
+  },
   "id" : 6,
-  "text" : "",
-  "to" : 5
+  "to" : 5,
+  "text" : ""
 }, {
-  "archetype" : "0",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : "\";\""
-  } ],
+  "archetype" : 0,
   "from" : 3,
+  "attributes" : {
+    "0" : "\";\""
+  },
   "id" : 7,
-  "text" : "",
-  "to" : 6
+  "to" : 6,
+  "text" : ""
 }, {
-  "archetype" : "0",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : "\".\""
-  } ],
+  "archetype" : 0,
   "from" : 4,
+  "attributes" : {
+    "0" : "\".\""
+  },
   "id" : 8,
-  "text" : "",
-  "to" : 7
+  "to" : 7,
+  "text" : ""
 }, {
-  "archetype" : "0",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : ""
-  } ],
+  "archetype" : 0,
   "from" : 5,
+  "attributes" : {
+    "0" : ""
+  },
   "id" : 9,
-  "text" : "",
-  "to" : 33058961
+  "to" : 33058961,
+  "text" : ""
 }, {
-  "archetype" : "0",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : ""
-  } ],
+  "archetype" : 0,
   "from" : 6,
+  "attributes" : {
+    "0" : ""
+  },
   "id" : 10,
-  "text" : "",
-  "to" : 33088783
+  "to" : 33088783,
+  "text" : ""
 }, {
-  "archetype" : "0",
-  "attributes" : [ {
-    "key" : "0",
-    "value" : ""
-  } ],
+  "archetype" : 0,
   "from" : 7,
+  "attributes" : {
+    "0" : ""
+  },
   "id" : 11,
-  "text" : "",
-  "to" : 33118605
+  "to" : 33118605,
+  "text" : ""
 } ]
 }

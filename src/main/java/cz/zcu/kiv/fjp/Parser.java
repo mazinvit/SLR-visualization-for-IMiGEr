@@ -20,6 +20,7 @@ public class Parser {
     List<VertexArchetype> vertexArchetypes;
     List<AttributeType> attributeTypes;
     int edgeId;
+    int count;
 
     public Parser(String inputFile, String outputFile) {
         try {
@@ -28,6 +29,7 @@ public class Parser {
             defineVertexArchetypesSLR();
             defineAttributeTypesSLR();
             edgeId = 0;
+            count = 8;
         }
 
         catch (FileNotFoundException fe) {
@@ -91,6 +93,7 @@ public class Parser {
     private int getNodeID(GraphNode node) {
         if(node.getId().contains("R")) {
             return node.getId().hashCode();
+            //return count++;
         }
 
         return((int) Integer.parseInt(node.getId()));
