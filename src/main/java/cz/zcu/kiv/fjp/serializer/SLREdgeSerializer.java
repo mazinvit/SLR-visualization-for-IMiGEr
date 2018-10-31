@@ -1,4 +1,4 @@
-package cz.zcu.kiv.fjp.utils;
+package cz.zcu.kiv.fjp.serializer;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;

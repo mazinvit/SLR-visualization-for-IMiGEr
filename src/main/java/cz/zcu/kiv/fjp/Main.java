@@ -1,21 +1,15 @@
 package cz.zcu.kiv.fjp;
 
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import cz.zcu.kiv.fjp.entities.Node;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStreamWriter;
-import java.util.List;
+import cz.zcu.kiv.fjp.parser.SLRParser;
+import cz.zcu.kiv.fjp.serializer.SLRSerializer;
 
 public class Main {
 
     public static void main(String[] args) {
 
         if (args.length >= 1) {
-            if (args[0] == "-h") {
+            if (args[0].equals("-h")) {
                 System.out.println("Printign help:");
             }
 
@@ -23,14 +17,14 @@ public class Main {
                 String graphFile = args[0];
                 String outputFile = args[1];
 
-                Parser parser = new Parser(graphFile, outputFile);
+                SLRParser parser = new SLRParser(graphFile, outputFile);
                 //parser.parseNodes();
-                Serializer serializer = new Serializer(parser);
-                serializer.serializeAutomaton(outputFile);
+                SLRSerializer serializer = new SLRSerializer(parser);
+                serializer.serialize(outputFile);
                 //serializer.serialize(outputFile);
 
                 /*
-                List<Node> nodes = parser.parseNodes();
+                List<Vertex> nodes = parser.parseNodes();
                 File nodeJson = new File("graph.json");
 
                 try {
@@ -38,7 +32,7 @@ public class Main {
                     om.enable(SerializationFeature.INDENT_OUTPUT);
                     StringBuilder sb = new StringBuilder();
 
-                    for(Node node : nodes) {
+                    for(Vertex node : nodes) {
                         sb.append(om.writeValueAsString(node));
                     }
 

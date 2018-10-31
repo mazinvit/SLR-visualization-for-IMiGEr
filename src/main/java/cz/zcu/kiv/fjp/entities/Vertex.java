@@ -1,16 +1,16 @@
 package cz.zcu.kiv.fjp.entities;
 
-public class Node {
+public class Vertex {
     int id;
-    String title;
+    String name;
     String text;
     int archetype;
     //ArrayList<String> attributes;
     //TODO empty object attributes
 
-    public Node(int id, String title, String text, int archetype) {
+    public Vertex(int id, String name, String text, int archetype) {
         this.id = id;
-        this.title = title;
+        this.name = name;
         this.text = text;
         this.archetype = archetype;
     }
@@ -23,12 +23,12 @@ public class Node {
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getText() {

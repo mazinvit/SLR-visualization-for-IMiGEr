@@ -1,4 +1,4 @@
-package cz.zcu.kiv.fjp;
+package cz.zcu.kiv.fjp.parser;
 
 import com.paypal.digraph.parser.GraphEdge;
 import com.paypal.digraph.parser.GraphNode;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class Parser {
+public class SLRParser implements IDotParser {
 
     File inputFile, outputFile;
     GraphParser parser;
@@ -22,7 +22,7 @@ public class Parser {
     int edgeId;
     int count;
 
-    public Parser(String inputFile, String outputFile) {
+    public SLRParser(String inputFile, String outputFile) {
         try {
             parser = new GraphParser(new FileInputStream(new File(inputFile)));
             defineEdgeArchetypesSLR();
@@ -37,8 +37,8 @@ public class Parser {
         }
     }
 
-    public List<Node> parseNodesSLR() {
-        List<Node> parsed = new ArrayList<Node>();
+    public List<Vertex> parseNodes() {
+        List<Vertex> parsed = new ArrayList<Vertex>();
         Map<String, GraphNode> nodes = parser.getNodes();
 
         for(GraphNode node : nodes.values()) {
@@ -49,13 +49,13 @@ public class Parser {
             //TODO atributes
             String label = (String) node.getAttribute("label");
             if (label.equals("Acc")) {
-                parsed.add(new Node(id, (String) node.getAttribute("label"), "", 1));
+                parsed.add(new Vertex(id, (String) node.getAttribute("label"), "", 1));
             }
             else  if(label.startsWith("R")) {
-                parsed.add(new Node(id, (String) node.getAttribute("label"), "", 2));
+                parsed.add(new Vertex(id, (String) node.getAttribute("label"), "", 2));
             }
             else {
-                parsed.add(new Node(id, (String) node.getAttribute("label"), "", 0));
+                parsed.add(new Vertex(id, (String) node.getAttribute("label"), "", 0));
             }
         }
 
@@ -63,7 +63,7 @@ public class Parser {
         return parsed;
     }
 
-    public List<Edge> parseEdgesSLR() {
+    public List<Edge> parseEdges() {
         List<Edge> parsed = new ArrayList<Edge>();
         Map<String, GraphEdge> edges = parser.getEdges();
 

@@ -24,7 +24,7 @@
   "name" : "shift",
   "text" : ""
 } ],
-"verticies": 
+"vertices": 
 [ {
   "archetype" : 2,
   "attributes" : {
@@ -32,7 +32,7 @@
   },
   "id" : 32939890,
   "text" : "",
-  "title" : "R3"
+  "name" : "R3"
 }, {
   "archetype" : 2,
   "attributes" : {
@@ -40,7 +40,7 @@
   },
   "id" : 32939921,
   "text" : "",
-  "title" : "R4"
+  "name" : "R4"
 }, {
   "archetype" : 1,
   "attributes" : {
@@ -48,7 +48,7 @@
   },
   "id" : 33058961,
   "text" : "",
-  "title" : "Acc"
+  "name" : "Acc"
 }, {
   "archetype" : 2,
   "attributes" : {
@@ -56,7 +56,7 @@
   },
   "id" : 33088783,
   "text" : "",
-  "title" : "R1"
+  "name" : "R1"
 }, {
   "archetype" : 2,
   "attributes" : {
@@ -64,7 +64,7 @@
   },
   "id" : 33118605,
   "text" : "",
-  "title" : "R2"
+  "name" : "R2"
 }, {
   "archetype" : 0,
   "attributes" : {
@@ -72,7 +72,7 @@
   },
   "id" : 0,
   "text" : "",
-  "title" : "State 0\\n\\l  0 $accept: . exp $end\\l"
+  "name" : "State 0\\n\\l  0 $accept: . exp $end\\l"
 }, {
   "archetype" : 0,
   "attributes" : {
@@ -80,7 +80,7 @@
   },
   "id" : 1,
   "text" : "",
-  "title" : "State 1\\n\\l  3 a: \"0\" .\\l  4 b: \"0\" .\\l"
+  "name" : "State 1\\n\\l  3 a: \"0\" .\\l  4 b: \"0\" .\\l"
 }, {
   "archetype" : 0,
   "attributes" : {
@@ -88,7 +88,7 @@
   },
   "id" : 2,
   "text" : "",
-  "title" : "State 2\\n\\l  0 $accept: exp . $end\\l"
+  "name" : "State 2\\n\\l  0 $accept: exp . $end\\l"
 }, {
   "archetype" : 0,
   "attributes" : {
@@ -96,7 +96,7 @@
   },
   "id" : 3,
   "text" : "",
-  "title" : "State 3\\n\\l  1 exp: a . \";\"\\l"
+  "name" : "State 3\\n\\l  1 exp: a . \";\"\\l"
 }, {
   "archetype" : 0,
   "attributes" : {
@@ -104,7 +104,7 @@
   },
   "id" : 4,
   "text" : "",
-  "title" : "State 4\\n\\l  2 exp: b . \".\"\\l"
+  "name" : "State 4\\n\\l  2 exp: b . \".\"\\l"
 }, {
   "archetype" : 0,
   "attributes" : {
@@ -112,7 +112,7 @@
   },
   "id" : 5,
   "text" : "",
-  "title" : "State 5\\n\\l  0 $accept: exp $end .\\l"
+  "name" : "State 5\\n\\l  0 $accept: exp $end .\\l"
 }, {
   "archetype" : 0,
   "attributes" : {
@@ -120,7 +120,7 @@
   },
   "id" : 6,
   "text" : "",
-  "title" : "State 6\\n\\l  1 exp: a \";\" .\\l"
+  "name" : "State 6\\n\\l  1 exp: a \";\" .\\l"
 }, {
   "archetype" : 0,
   "attributes" : {
@@ -128,7 +128,7 @@
   },
   "id" : 7,
   "text" : "",
-  "title" : "State 7\\n\\l  2 exp: b \".\" .\\l"
+  "name" : "State 7\\n\\l  2 exp: b \".\" .\\l"
 } ],
 "edges": 
 [ {
@@ -239,5 +239,13 @@
   "id" : 11,
   "to" : 33118605,
   "text" : ""
-} ]
-}
+} ],
+"possibleEnumValues": {},
+
+"groups": [],
+
+"sideBar": [],
+
+"highlightedVertex": "",
+
+"highlightedEdge": ""}

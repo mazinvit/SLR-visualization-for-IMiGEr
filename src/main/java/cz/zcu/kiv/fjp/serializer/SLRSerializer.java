@@ -1,32 +1,30 @@
-package cz.zcu.kiv.fjp;
+package cz.zcu.kiv.fjp.serializer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.module.SimpleModule;
+import cz.zcu.kiv.fjp.parser.SLRParser;
 import cz.zcu.kiv.fjp.entities.*;
-import cz.zcu.kiv.fjp.utils.NodeSerializer;
-import cz.zcu.kiv.fjp.utils.SLREdgeSerializer;
-import sun.security.provider.certpath.Vertex;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
-public class Serializer {
+public class SLRSerializer implements IDotSerializer {
 
-    Parser parser;
+    SLRParser parser;
 
-    public Serializer(Parser parser) {
+    public SLRSerializer(SLRParser parser) {
         this.parser = parser;
     }
 
-    public void serializeAutomaton(String outpurFile) {
+    public void serialize(String outpurFile) {
 
-        ArrayList<Vertex> vertices = new ArrayList<Vertex>();
+        ArrayList<sun.security.provider.certpath.Vertex> vertices = new ArrayList<sun.security.provider.certpath.Vertex>();
 
-        ArrayList<Node> nodes = (ArrayList<Node>)parser.parseNodesSLR();
-        ArrayList<Edge> edges = (ArrayList<Edge>)parser.parseEdgesSLR();
+        ArrayList<Vertex> nodes = (ArrayList<Vertex>) parser.parseNodes();
+        ArrayList<Edge> edges = (ArrayList<Edge>) parser.parseEdges();
         ArrayList<AttributeType> attributeTypes = (ArrayList<AttributeType>) parser.getAttributeTypes();
         ArrayList<VertexArchetype> vertexArchetypes = (ArrayList<VertexArchetype>) parser.getVertexArchetypes();
         ArrayList<EdgeArchetype> edgeArchetypes = (ArrayList<EdgeArchetype>) parser.getEdgeArchetypes();
@@ -37,7 +35,7 @@ public class Serializer {
             ObjectMapper om = new ObjectMapper();
 
             SimpleModule module = new SimpleModule();
-            module.addSerializer(Node.class, new NodeSerializer());
+            module.addSerializer(Vertex.class, new VertexSerializer());
             module.addSerializer(Edge.class, new SLREdgeSerializer());
             om.registerModule(module);
             om.enable(SerializationFeature.INDENT_OUTPUT);
@@ -57,7 +55,7 @@ public class Serializer {
             sb.append(om.writeValueAsString(edgeArchetypes));
             sb.append(",\n");
 
-            sb.append("\"verticies\": \n");
+            sb.append("\"vertices\": \n");
             String nodesJson = om.writeValueAsString(nodes);
             nodesJson = nodesJson.replace("\"dummy\" : \"dummy\"", " ");
             sb.append(nodesJson);
@@ -67,7 +65,17 @@ public class Serializer {
             String edgesJson = om.writeValueAsString(edges);
             edgesJson = edgesJson.replace("attrstring", "0");
             sb.append(edgesJson);
-            sb.append("\n");
+            sb.append(",\n");
+
+            sb.append("\"possibleEnumValues\": {},\n" +
+                    "\n" +
+                    "\"groups\": [],\n" +
+                    "\n" +
+                    "\"sideBar\": [],\n" +
+                    "\n" +
+                    "\"highlightedVertex\": \"\",\n" +
+                    "\n" +
+                    "\"highlightedEdge\": \"\"");
 
             sb.append("}");
 
