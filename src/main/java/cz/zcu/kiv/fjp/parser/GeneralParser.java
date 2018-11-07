@@ -10,8 +10,8 @@ import java.util.Map;
 
 public class GeneralParser extends DotParser {
 
-    public GeneralParser(String inputFile, String outputFile) {
-        super(inputFile, outputFile);
+    public GeneralParser(String inputFile) {
+        super(inputFile);
     }
 
     public List<Vertex> parseNodes() {

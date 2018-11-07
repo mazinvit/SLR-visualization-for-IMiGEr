@@ -10,8 +10,8 @@ import java.util.Map;
 
 public class SLRParser extends DotParser {
 
-    public SLRParser(String inputFile, String outputFile) {
-        super(inputFile, outputFile);
+    public SLRParser(String inputFile) {
+        super(inputFile);
     }
 
     public List<Vertex> parseNodes() {
@@ -27,14 +27,16 @@ public class SLRParser extends DotParser {
 
             //TODO atributes
             String label = (String) node.getAttribute("label");
+            String replacedLabel = label.replaceAll("(\\\\n\\\\l)", ": ");
+            replacedLabel = replacedLabel.replaceAll("\\\\n|\\\\l", "");
             if (label.equals("Acc")) {
-                parsed.add(new Vertex(id, (String) node.getAttribute("label"), "", 1));
+                parsed.add(new Vertex(id, replacedLabel, "", 1));
             }
             else  if(label.startsWith("R")) {
-                parsed.add(new Vertex(id, (String) node.getAttribute("label"), "", 2));
+                parsed.add(new Vertex(id, replacedLabel, "", 2));
             }
             else {
-                parsed.add(new Vertex(id, (String) node.getAttribute("label"), "", 0));
+                parsed.add(new Vertex(id, replacedLabel, "", 0));
             }
         }
 

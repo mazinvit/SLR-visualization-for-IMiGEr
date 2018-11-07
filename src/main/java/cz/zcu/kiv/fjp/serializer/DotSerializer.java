@@ -29,7 +29,7 @@ public class DotSerializer implements IDotSerializer {
         ArrayList<VertexArchetype> vertexArchetypes = (ArrayList<VertexArchetype>) parser.getVertexArchetypes();
         ArrayList<EdgeArchetype> edgeArchetypes = (ArrayList<EdgeArchetype>) parser.getEdgeArchetypes();
 
-        File nodeJson = new File("graph.json");
+        File nodeJson = new File(outpurFile);
         System.out.println("Serializing...");
 
         try {

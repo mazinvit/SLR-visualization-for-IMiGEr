@@ -20,7 +20,7 @@ public abstract class DotParser {
 
     int edgeId;
 
-    public DotParser(String inputFile, String outputFile) {
+    public DotParser(String inputFile) {
         try {
             System.out.println("Parser Initialization.");
             parser = new GraphParser(new FileInputStream(new File(inputFile)));
