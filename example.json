@@ -7,785 +7,3179 @@
 } ],
 "vertexArchetypes": 
 [ {
-  "name" : "defaultVertex",
+  "name" : "state",
+  "text" : ""
+}, {
+  "name" : "acc",
+  "text" : ""
+}, {
+  "name" : "reduce",
   "text" : ""
 } ],
 "edgeArchetypes": 
 [ {
-  "name" : "defaultEdge",
+  "name" : "reduce",
+  "text" : ""
+}, {
+  "name" : "shift",
   "text" : ""
 } ],
 "vertices": 
 [ {
-  "archetype" : 0,
+  "archetype" : 2,
   "attributes" : {
      
   },
-  "id" : 1544783264,
+  "id" : 32910037,
   "text" : "",
-  "name" : "1 BSD"
+  "name" : "R1"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1020154203,
+  "text" : "",
+  "name" : "R8"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1562773773,
+  "text" : "",
+  "name" : "R18"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1020273336,
+  "text" : "",
+  "name" : "R7"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1567391409,
+  "text" : "",
+  "name" : "R19"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1588633229,
+  "text" : "",
+  "name" : "R25"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1021137213,
+  "text" : "",
+  "name" : "R5"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1591402769,
+  "text" : "",
+  "name" : "R13"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1592326383,
+  "text" : "",
+  "name" : "R16"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1593249842,
+  "text" : "",
+  "name" : "R14"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1594173394,
+  "text" : "",
+  "name" : "R15"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1021286292,
+  "text" : "",
+  "name" : "R9"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1596020312,
+  "text" : "",
+  "name" : "R11"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 32969681,
+  "text" : "",
+  "name" : "R3"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1617261512,
+  "text" : "",
+  "name" : "R18"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1618186831,
+  "text" : "",
+  "name" : "R34"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1619110383,
+  "text" : "",
+  "name" : "R35"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1621879923,
+  "text" : "",
+  "name" : "R23"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1624650455,
+  "text" : "",
+  "name" : "R22"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1022269209,
+  "text" : "",
+  "name" : "R3"
+}, {
+  "archetype" : 1,
+  "attributes" : {
+     
+  },
+  "id" : 32999379,
+  "text" : "",
+  "name" : "Acc"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1645891407,
+  "text" : "",
+  "name" : "R21"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1646814153,
+  "text" : "",
+  "name" : "R17"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1648663861,
+  "text" : "",
+  "name" : "R40"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1680061839,
+  "text" : "",
+  "name" : "R26"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1681908695,
+  "text" : "",
+  "name" : "R20"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1682834169,
+  "text" : "",
+  "name" : "R41"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 33059147,
+  "text" : "",
+  "name" : "R6"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1703148965,
+  "text" : "",
+  "name" : "R18"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1704074346,
+  "text" : "",
+  "name" : "R36"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1704997898,
+  "text" : "",
+  "name" : "R37"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1705921450,
+  "text" : "",
+  "name" : "R38"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1706845002,
+  "text" : "",
+  "name" : "R39"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1707767531,
+  "text" : "",
+  "name" : "R28"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1708691083,
+  "text" : "",
+  "name" : "R29"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1709615286,
+  "text" : "",
+  "name" : "R30"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1710538838,
+  "text" : "",
+  "name" : "R31"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1711462390,
+  "text" : "",
+  "name" : "R32"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 33088814,
+  "text" : "",
+  "name" : "R2"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1731779883,
+  "text" : "",
+  "name" : "R33"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1733624972,
+  "text" : "",
+  "name" : "R12"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1734549516,
+  "text" : "",
+  "name" : "R24"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1735472200,
+  "text" : "",
+  "name" : "R18"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1736396651,
+  "text" : "",
+  "name" : "R27"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 1026676262,
+  "text" : "",
+  "name" : "R10"
+}, {
+  "archetype" : 2,
+  "attributes" : {
+     
+  },
+  "id" : 33178249,
+  "text" : "",
+  "name" : "R4"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 1573412415,
+  "id" : 48,
   "text" : "",
-  "name" : "2 BSD"
+  "name" : "State 0:   0 $accept: . session $end"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -572409163,
+  "id" : 49,
   "text" : "",
-  "name" : "2.8 BSD"
+  "name" : "State 1:   0 $accept: session . $end"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -543780012,
+  "id" : 1567,
   "text" : "",
-  "name" : "2.9 BSD"
+  "name" : "State 10:   8 varlist: IDENTIFIKATOR ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 1602041566,
+  "id" : 1568,
   "text" : "",
-  "name" : "3 BSD"
+  "name" : "State 11:   7 vardecl: vardecl K_VAR varlist . STREDNIK  9 varlist: varlist . CARKA IDENTIFIKATOR"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 32969805,
+  "id" : 1569,
   "text" : "",
-  "name" : "32V"
+  "name" : "State 12:  12 procedures: procedures K_PROCEDURE . IDENTIFIKATOR STREDNIK $@4 block STREDNIK"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 1630670717,
+  "id" : 1570,
   "text" : "",
-  "name" : "4 BSD"
+  "name" : "State 13:   5 block: $@2 vardecl procedures $@3 . command"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -1582159846,
+  "id" : 1571,
   "text" : "",
-  "name" : "4.1 BSD"
+  "name" : "State 14:   7 vardecl: vardecl K_VAR varlist STREDNIK ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -1553530695,
+  "id" : 1572,
   "text" : "",
-  "name" : "4.2 BSD"
+  "name" : "State 15:   9 varlist: varlist CARKA . IDENTIFIKATOR"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -1524901544,
+  "id" : 1573,
   "text" : "",
-  "name" : "4.3 BSD"
+  "name" : "State 16:  12 procedures: procedures K_PROCEDURE IDENTIFIKATOR . STREDNIK $@4 block STREDNIK"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -426503107,
+  "id" : 1574,
   "text" : "",
-  "name" : "5th Edition"
+  "name" : "State 17:  21 assignment: IDENTIFIKATOR . PRIRAD expression"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -297420388,
+  "id" : 1575,
   "text" : "",
-  "name" : "6th Edition"
+  "name" : "State 18:  17 command: K_BEGIN . commandlist K_END"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -168337669,
+  "id" : 1576,
   "text" : "",
-  "name" : "7th Edition"
+  "name" : "State 19:  24 conditional: K_IF . condition $@5 K_THEN command"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -39254950,
+  "id" : 50,
   "text" : "",
-  "name" : "8th Edition"
+  "name" : "State 2:   2 session: $@1 . block TECKA"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 89827769,
+  "id" : 1598,
   "text" : "",
-  "name" : "9th Edition"
+  "name" : "State 20:  27 whileloop: K_WHILE . $@6 condition $@7 K_DO command"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 1032323690,
+  "id" : 1599,
   "text" : "",
-  "name" : "CB Unix 1"
+  "name" : "State 21:  22 callprocedure: K_CALL . IDENTIFIKATOR"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 1032323721,
+  "id" : 1600,
   "text" : "",
-  "name" : "CB Unix 2"
+  "name" : "State 22:   5 block: $@2 vardecl procedures $@3 command ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 1032323752,
+  "id" : 1601,
   "text" : "",
-  "name" : "CB Unix 3"
+  "name" : "State 23:  13 command: assignment ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -1590404045,
+  "id" : 1602,
   "text" : "",
-  "name" : "Mini Unix"
+  "name" : "State 24:  16 command: callprocedure ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -2140022196,
+  "id" : 1603,
   "text" : "",
-  "name" : "PDP-11 Sys V"
+  "name" : "State 25:  14 command: conditional ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -1809012522,
+  "id" : 1604,
   "text" : "",
-  "name" : "PWB 1.0"
+  "name" : "State 26:  15 command: whileloop ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -1809012460,
+  "id" : 1605,
   "text" : "",
-  "name" : "PWB 1.2"
+  "name" : "State 27:   9 varlist: varlist CARKA IDENTIFIKATOR ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -1808982731,
+  "id" : 1606,
   "text" : "",
-  "name" : "PWB 2.0"
+  "name" : "State 28:  12 procedures: procedures K_PROCEDURE IDENTIFIKATOR STREDNIK . $@4 block STREDNIK"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 167439449,
+  "id" : 1607,
   "text" : "",
-  "name" : "System V.0"
+  "name" : "State 29:  21 assignment: IDENTIFIKATOR PRIRAD . expression"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 167439511,
+  "id" : 51,
   "text" : "",
-  "name" : "System V.2"
+  "name" : "State 3:   0 $accept: session $end ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 167439542,
+  "id" : 1629,
   "text" : "",
-  "name" : "System V.3"
+  "name" : "State 30:  17 command: K_BEGIN commandlist . K_END 20 commandlist: commandlist . command STREDNIK"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -1225725813,
+  "id" : 1630,
   "text" : "",
-  "name" : "TS 4.0"
+  "name" : "State 31:  34 expression: CISLO ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -796797112,
+  "id" : 1631,
   "text" : "",
-  "name" : "USG 1.0"
+  "name" : "State 32:  35 expression: IDENTIFIKATOR ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -796767321,
+  "id" : 1632,
   "text" : "",
-  "name" : "USG 2.0"
+  "name" : "State 33:  40 expression: O_MINUS . expression"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -796737530,
+  "id" : 1633,
   "text" : "",
-  "name" : "USG 3.0"
+  "name" : "State 34:  41 expression: ZAVORKA_L . expression ZAVORKA_P"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -905123397,
+  "id" : 1634,
   "text" : "",
-  "name" : "Ultrix-11"
+  "name" : "State 35:  24 conditional: K_IF condition . $@5 K_THEN command"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -905121444,
+  "id" : 1635,
   "text" : "",
-  "name" : "Ultrix-32"
+  "name" : "State 36:  28 condition: expression . O_EQ expression 29          | expression . O_NE expression 30          | expression . O_LT expression 31          | expression . O_LE expression 32          | expression . O_GT expression 33          | expression . O_GE expression 36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -1873414273,
+  "id" : 1636,
   "text" : "",
-  "name" : "UniPlus+"
+  "name" : "State 37:  27 whileloop: K_WHILE $@6 . condition $@7 K_DO command"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -449194613,
+  "id" : 1637,
   "text" : "",
-  "name" : "Unix/TS 1.0"
+  "name" : "State 38:  22 callprocedure: K_CALL IDENTIFIKATOR ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -449135031,
+  "id" : 1638,
   "text" : "",
-  "name" : "Unix/TS 3.0"
+  "name" : "State 39:  12 procedures: procedures K_PROCEDURE IDENTIFIKATOR STREDNIK $@4 . block STREDNIK"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 1416301150,
+  "id" : 52,
   "text" : "",
-  "name" : "Unix/TS++"
+  "name" : "State 4:   2 session: $@1 block . TECKA"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : -1788434842,
+  "id" : 1660,
   "text" : "",
-  "name" : "Interdata"
+  "name" : "State 40:  21 assignment: IDENTIFIKATOR PRIRAD expression . 36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 75697,
+  "id" : 1661,
   "text" : "",
-  "name" : "LSX"
+  "name" : "State 41:  17 command: K_BEGIN commandlist K_END ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 84428,
+  "id" : 1662,
   "text" : "",
-  "name" : "V7M"
+  "name" : "State 42:  20 commandlist: commandlist command . STREDNIK"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 912918392,
+  "id" : 1663,
   "text" : "",
-  "name" : "Wollongong"
+  "name" : "State 43:  36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression 40           | O_MINUS expression ."
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 84387824,
+  "id" : 1664,
   "text" : "",
-  "name" : "Xenix"
+  "name" : "State 44:  36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression 41           | ZAVORKA_L expression . ZAVORKA_P"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1665,
+  "text" : "",
+  "name" : "State 45:  24 conditional: K_IF condition $@5 . K_THEN command"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1666,
+  "text" : "",
+  "name" : "State 46:  36 expression: expression O_PLUS . expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1667,
+  "text" : "",
+  "name" : "State 47:  37 expression: expression O_MINUS . expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1668,
+  "text" : "",
+  "name" : "State 48:  38 expression: expression O_KRAT . expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1669,
+  "text" : "",
+  "name" : "State 49:  39 expression: expression O_DELENO . expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 53,
+  "text" : "",
+  "name" : "State 5:   5 block: $@2 . vardecl procedures $@3 command"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1691,
+  "text" : "",
+  "name" : "State 50:  28 condition: expression O_EQ . expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1692,
+  "text" : "",
+  "name" : "State 51:  29 condition: expression O_NE . expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1693,
+  "text" : "",
+  "name" : "State 52:  30 condition: expression O_LT . expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1694,
+  "text" : "",
+  "name" : "State 53:  31 condition: expression O_LE . expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1695,
+  "text" : "",
+  "name" : "State 54:  32 condition: expression O_GT . expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1696,
+  "text" : "",
+  "name" : "State 55:  33 condition: expression O_GE . expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1697,
+  "text" : "",
+  "name" : "State 56:  27 whileloop: K_WHILE $@6 condition . $@7 K_DO command"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1698,
+  "text" : "",
+  "name" : "State 57:  12 procedures: procedures K_PROCEDURE IDENTIFIKATOR STREDNIK $@4 block . STREDNIK"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1699,
+  "text" : "",
+  "name" : "State 58:  20 commandlist: commandlist command STREDNIK ."
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1700,
+  "text" : "",
+  "name" : "State 59:  41 expression: ZAVORKA_L expression ZAVORKA_P ."
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 54,
+  "text" : "",
+  "name" : "State 6:   2 session: $@1 block TECKA ."
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1722,
+  "text" : "",
+  "name" : "State 60:  24 conditional: K_IF condition $@5 K_THEN . command"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1723,
+  "text" : "",
+  "name" : "State 61:  36 expression: expression . O_PLUS expression 36           | expression O_PLUS expression . 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1724,
+  "text" : "",
+  "name" : "State 62:  36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 37           | expression O_MINUS expression . 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1725,
+  "text" : "",
+  "name" : "State 63:  36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 38           | expression O_KRAT expression . 39           | expression . O_DELENO expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1726,
+  "text" : "",
+  "name" : "State 64:  36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression 39           | expression O_DELENO expression ."
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1727,
+  "text" : "",
+  "name" : "State 65:  28 condition: expression O_EQ expression . 36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1728,
+  "text" : "",
+  "name" : "State 66:  29 condition: expression O_NE expression . 36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1729,
+  "text" : "",
+  "name" : "State 67:  30 condition: expression O_LT expression . 36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1730,
+  "text" : "",
+  "name" : "State 68:  31 condition: expression O_LE expression . 36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1731,
+  "text" : "",
+  "name" : "State 69:  32 condition: expression O_GT expression . 36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 55,
+  "text" : "",
+  "name" : "State 7:   5 block: $@2 vardecl . procedures $@3 command  7 vardecl: vardecl . K_VAR varlist STREDNIK"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1753,
+  "text" : "",
+  "name" : "State 70:  33 condition: expression O_GE expression . 36 expression: expression . O_PLUS expression 37           | expression . O_MINUS expression 38           | expression . O_KRAT expression 39           | expression . O_DELENO expression"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1754,
+  "text" : "",
+  "name" : "State 71:  27 whileloop: K_WHILE $@6 condition $@7 . K_DO command"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1755,
+  "text" : "",
+  "name" : "State 72:  12 procedures: procedures K_PROCEDURE IDENTIFIKATOR STREDNIK $@4 block STREDNIK ."
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1756,
+  "text" : "",
+  "name" : "State 73:  24 conditional: K_IF condition $@5 K_THEN command ."
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1757,
+  "text" : "",
+  "name" : "State 74:  27 whileloop: K_WHILE $@6 condition $@7 K_DO . command"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1758,
+  "text" : "",
+  "name" : "State 75:  27 whileloop: K_WHILE $@6 condition $@7 K_DO command ."
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 56,
+  "text" : "",
+  "name" : "State 8:   7 vardecl: vardecl K_VAR . varlist STREDNIK"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 57,
+  "text" : "",
+  "name" : "State 9:   5 block: $@2 vardecl procedures . $@3 command 12 procedures: procedures . K_PROCEDURE IDENTIFIKATOR STREDNIK $@4 block STREDNIK"
 } ],
 "edges": 
 [ {
   "archetype" : 0,
-  "from" : 1544783264,
+  "from" : 48,
   "attributes" : {
-    "0" : "\"1 BSD\"-\"2 BSD\""
+    "0" : ""
   },
   "id" : 0,
-  "to" : 1573412415,
+  "to" : 32910037,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : 1573412415,
+  "archetype" : 1,
+  "from" : 48,
   "attributes" : {
-    "0" : "\"2 BSD\"-\"2.8 BSD\""
+    "0" : "session"
   },
   "id" : 1,
-  "to" : -572409163,
+  "to" : 49,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : -572409163,
+  "archetype" : 1,
+  "from" : 48,
   "attributes" : {
-    "0" : "\"2.8 BSD\"-\"2.9 BSD\""
+    "0" : "$@1"
   },
   "id" : 2,
-  "to" : -543780012,
+  "to" : 50,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -572409163,
+  "from" : 49,
   "attributes" : {
-    "0" : "\"2.8 BSD\"-\"Ultrix-11\""
+    "0" : "$end"
   },
   "id" : 3,
-  "to" : -905123397,
+  "to" : 51,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 1602041566,
+  "from" : 1567,
   "attributes" : {
-    "0" : "\"3 BSD\"-\"4 BSD\""
+    "0" : ""
   },
   "id" : 4,
-  "to" : 1630670717,
+  "to" : 1020154203,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 32969805,
+  "from" : 1568,
   "attributes" : {
-    "0" : "\"32V\"-\"3 BSD\""
+    "0" : "STREDNIK"
   },
   "id" : 5,
-  "to" : 1602041566,
+  "to" : 1571,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 1630670717,
+  "from" : 1568,
   "attributes" : {
-    "0" : "\"4 BSD\"-\"4.1 BSD\""
+    "0" : "CARKA"
   },
   "id" : 6,
-  "to" : -1582159846,
+  "to" : 1572,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1582159846,
+  "from" : 1569,
   "attributes" : {
-    "0" : "\"4.1 BSD\"-\"2.8 BSD\""
+    "0" : "IDENTIFIKATOR"
   },
   "id" : 7,
-  "to" : -572409163,
+  "to" : 1573,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1582159846,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"4.1 BSD\"-\"4.2 BSD\""
+    "0" : ""
   },
   "id" : 8,
-  "to" : -1553530695,
+  "to" : 1562773773,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1582159846,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"4.1 BSD\"-\"8th Edition\""
+    "0" : "IDENTIFIKATOR"
   },
   "id" : 9,
-  "to" : -39254950,
+  "to" : 1574,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1553530695,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"4.2 BSD\"-\"4.3 BSD\""
+    "0" : "K_BEGIN"
   },
   "id" : 10,
-  "to" : -1524901544,
+  "to" : 1575,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1553530695,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"4.2 BSD\"-\"Ultrix-32\""
+    "0" : "K_IF"
   },
   "id" : 11,
-  "to" : -905121444,
+  "to" : 1576,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -426503107,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"5th Edition\"-\"6th Edition\""
+    "0" : "K_WHILE"
   },
   "id" : 12,
-  "to" : -297420388,
+  "to" : 1598,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -426503107,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"5th Edition\"-\"PWB 1.0\""
+    "0" : "K_CALL"
   },
   "id" : 13,
-  "to" : -1809012522,
+  "to" : 1599,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : -297420388,
+  "archetype" : 1,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"6th Edition\"-\"1 BSD\""
+    "0" : "command"
   },
   "id" : 14,
-  "to" : 1544783264,
+  "to" : 1600,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : -297420388,
+  "archetype" : 1,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"6th Edition\"-\"Mini Unix\""
+    "0" : "assignment"
   },
   "id" : 15,
-  "to" : -1590404045,
+  "to" : 1601,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : -297420388,
+  "archetype" : 1,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"6th Edition\"-Interdata"
+    "0" : "callprocedure"
   },
   "id" : 16,
-  "to" : -1788434842,
+  "to" : 1602,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : -297420388,
+  "archetype" : 1,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"6th Edition\"-LSX"
+    "0" : "conditional"
   },
   "id" : 17,
-  "to" : 75697,
+  "to" : 1603,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : -297420388,
+  "archetype" : 1,
+  "from" : 1570,
   "attributes" : {
-    "0" : "\"6th Edition\"-Wollongong"
+    "0" : "whileloop"
   },
   "id" : 18,
-  "to" : 912918392,
+  "to" : 1604,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -168337669,
+  "from" : 1571,
   "attributes" : {
-    "0" : "\"7th Edition\"-\"32V\""
+    "0" : ""
   },
   "id" : 19,
-  "to" : 32969805,
+  "to" : 1020273336,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -168337669,
+  "from" : 1572,
   "attributes" : {
-    "0" : "\"7th Edition\"-\"8th Edition\""
+    "0" : "IDENTIFIKATOR"
   },
   "id" : 20,
-  "to" : -39254950,
+  "to" : 1605,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -168337669,
+  "from" : 1573,
   "attributes" : {
-    "0" : "\"7th Edition\"-\"Ultrix-11\""
+    "0" : "STREDNIK"
   },
   "id" : 21,
-  "to" : -905123397,
+  "to" : 1606,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -168337669,
+  "from" : 1574,
   "attributes" : {
-    "0" : "\"7th Edition\"-\"UniPlus+\""
+    "0" : "PRIRAD"
   },
   "id" : 22,
-  "to" : -1873414273,
+  "to" : 1607,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -168337669,
+  "from" : 1575,
   "attributes" : {
-    "0" : "\"7th Edition\"-V7M"
+    "0" : ""
   },
   "id" : 23,
-  "to" : 84428,
+  "to" : 1567391409,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : -168337669,
+  "archetype" : 1,
+  "from" : 1575,
   "attributes" : {
-    "0" : "\"7th Edition\"-Xenix"
+    "0" : "commandlist"
   },
   "id" : 24,
-  "to" : 84387824,
+  "to" : 1629,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -39254950,
+  "from" : 1576,
   "attributes" : {
-    "0" : "\"8th Edition\"-\"9th Edition\""
+    "0" : "CISLO"
   },
   "id" : 25,
-  "to" : 89827769,
+  "to" : 1630,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 1032323690,
+  "from" : 1576,
   "attributes" : {
-    "0" : "\"CB Unix 1\"-\"CB Unix 2\""
+    "0" : "IDENTIFIKATOR"
   },
   "id" : 26,
-  "to" : 1032323721,
+  "to" : 1631,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 1032323721,
+  "from" : 1576,
   "attributes" : {
-    "0" : "\"CB Unix 2\"-\"CB Unix 3\""
+    "0" : "O_MINUS"
   },
   "id" : 27,
-  "to" : 1032323752,
+  "to" : 1632,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 1032323752,
+  "from" : 1576,
   "attributes" : {
-    "0" : "\"CB Unix 3\"-\"PDP-11 Sys V\""
+    "0" : "ZAVORKA_L"
   },
   "id" : 28,
-  "to" : -2140022196,
+  "to" : 1633,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : 1032323752,
+  "archetype" : 1,
+  "from" : 1576,
   "attributes" : {
-    "0" : "\"CB Unix 3\"-\"TS 4.0\""
+    "0" : "condition"
   },
   "id" : 29,
-  "to" : -1225725813,
+  "to" : 1634,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : 1032323752,
+  "archetype" : 1,
+  "from" : 1576,
   "attributes" : {
-    "0" : "\"CB Unix 3\"-\"Unix/TS++\""
+    "0" : "expression"
   },
   "id" : 30,
-  "to" : 1416301150,
+  "to" : 1635,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1809012522,
+  "from" : 50,
   "attributes" : {
-    "0" : "\"PWB 1.0\"-\"PWB 1.2\""
+    "0" : ""
   },
   "id" : 31,
-  "to" : -1809012460,
+  "to" : 32969681,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : -1809012522,
+  "archetype" : 1,
+  "from" : 50,
   "attributes" : {
-    "0" : "\"PWB 1.0\"-\"USG 1.0\""
+    "0" : "block"
   },
   "id" : 32,
-  "to" : -796797112,
+  "to" : 52,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : -1809012460,
+  "archetype" : 1,
+  "from" : 50,
   "attributes" : {
-    "0" : "\"PWB 1.2\"-\"PWB 2.0\""
+    "0" : "$@2"
   },
   "id" : 33,
-  "to" : -1808982731,
+  "to" : 53,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1808982731,
+  "from" : 1598,
   "attributes" : {
-    "0" : "\"PWB 2.0\"-\"Unix/TS 3.0\""
+    "0" : ""
   },
   "id" : 34,
-  "to" : -449135031,
+  "to" : 1588633229,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : 167439449,
+  "archetype" : 1,
+  "from" : 1598,
   "attributes" : {
-    "0" : "\"System V.0\"-\"System V.2\""
+    "0" : "$@6"
   },
   "id" : 35,
-  "to" : 167439511,
+  "to" : 1636,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 167439511,
+  "from" : 1599,
   "attributes" : {
-    "0" : "\"System V.2\"-\"System V.3\""
+    "0" : "IDENTIFIKATOR"
   },
   "id" : 36,
-  "to" : 167439542,
+  "to" : 1637,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1225725813,
+  "from" : 1600,
   "attributes" : {
-    "0" : "\"TS 4.0\"-\"System V.0\""
+    "0" : ""
   },
   "id" : 37,
-  "to" : 167439449,
+  "to" : 1021137213,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -796797112,
+  "from" : 1601,
   "attributes" : {
-    "0" : "\"USG 1.0\"-\"CB Unix 1\""
+    "0" : ""
   },
   "id" : 38,
-  "to" : 1032323690,
+  "to" : 1591402769,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -796797112,
+  "from" : 1602,
   "attributes" : {
-    "0" : "\"USG 1.0\"-\"USG 2.0\""
+    "0" : ""
   },
   "id" : 39,
-  "to" : -796767321,
+  "to" : 1592326383,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -796767321,
+  "from" : 1603,
   "attributes" : {
-    "0" : "\"USG 2.0\"-\"USG 3.0\""
+    "0" : ""
   },
   "id" : 40,
-  "to" : -796737530,
+  "to" : 1593249842,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -796737530,
+  "from" : 1604,
   "attributes" : {
-    "0" : "\"USG 3.0\"-\"Unix/TS 3.0\""
+    "0" : ""
   },
   "id" : 41,
-  "to" : -449135031,
+  "to" : 1594173394,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -449194613,
+  "from" : 1605,
   "attributes" : {
-    "0" : "\"Unix/TS 1.0\"-\"Unix/TS 3.0\""
+    "0" : ""
   },
   "id" : 42,
-  "to" : -449135031,
+  "to" : 1021286292,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -449135031,
+  "from" : 1606,
   "attributes" : {
-    "0" : "\"Unix/TS 3.0\"-\"TS 4.0\""
+    "0" : ""
   },
   "id" : 43,
-  "to" : -1225725813,
+  "to" : 1596020312,
   "text" : ""
 }, {
-  "archetype" : 0,
-  "from" : 1416301150,
+  "archetype" : 1,
+  "from" : 1606,
   "attributes" : {
-    "0" : "\"Unix/TS++\"-\"TS 4.0\""
+    "0" : "$@4"
   },
   "id" : 44,
-  "to" : -1225725813,
+  "to" : 1638,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1788434842,
+  "from" : 1607,
   "attributes" : {
-    "0" : "Interdata-\"7th Edition\""
+    "0" : "CISLO"
   },
   "id" : 45,
-  "to" : -168337669,
+  "to" : 1630,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1788434842,
+  "from" : 1607,
   "attributes" : {
-    "0" : "Interdata-\"PWB 2.0\""
+    "0" : "IDENTIFIKATOR"
   },
   "id" : 46,
-  "to" : -1808982731,
+  "to" : 1631,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : -1788434842,
+  "from" : 1607,
   "attributes" : {
-    "0" : "Interdata-\"Unix/TS 3.0\""
+    "0" : "O_MINUS"
   },
   "id" : 47,
-  "to" : -449135031,
+  "to" : 1632,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 84428,
+  "from" : 1607,
   "attributes" : {
-    "0" : "V7M-\"Ultrix-11\""
+    "0" : "ZAVORKA_L"
   },
   "id" : 48,
-  "to" : -905123397,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1607,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 49,
+  "to" : 1660,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 51,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 50,
+  "to" : 32999379,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1629,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 51,
+  "to" : 1617261512,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 52,
+  "to" : 1574,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "K_BEGIN"
+  },
+  "id" : 53,
+  "to" : 1575,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "K_IF"
+  },
+  "id" : 54,
+  "to" : 1576,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "K_WHILE"
+  },
+  "id" : 55,
+  "to" : 1598,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "K_CALL"
+  },
+  "id" : 56,
+  "to" : 1599,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "assignment"
+  },
+  "id" : 57,
+  "to" : 1601,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "callprocedure"
+  },
+  "id" : 58,
+  "to" : 1602,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "conditional"
+  },
+  "id" : 59,
+  "to" : 1603,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "whileloop"
+  },
+  "id" : 60,
+  "to" : 1604,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "K_END"
+  },
+  "id" : 61,
+  "to" : 1661,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1629,
+  "attributes" : {
+    "0" : "command"
+  },
+  "id" : 62,
+  "to" : 1662,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1630,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 63,
+  "to" : 1618186831,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1631,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 64,
+  "to" : 1619110383,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1632,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 65,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1632,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 66,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1632,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 67,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1632,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 68,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1632,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 69,
+  "to" : 1663,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1633,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 70,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1633,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 71,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1633,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 72,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1633,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 73,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1633,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 74,
+  "to" : 1664,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1634,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 75,
+  "to" : 1621879923,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1634,
+  "attributes" : {
+    "0" : "$@5"
+  },
+  "id" : 76,
+  "to" : 1665,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1635,
+  "attributes" : {
+    "0" : "O_PLUS"
+  },
+  "id" : 77,
+  "to" : 1666,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1635,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 78,
+  "to" : 1667,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1635,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 79,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1635,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 80,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1635,
+  "attributes" : {
+    "0" : "O_EQ"
+  },
+  "id" : 81,
+  "to" : 1691,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1635,
+  "attributes" : {
+    "0" : "O_NE"
+  },
+  "id" : 82,
+  "to" : 1692,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1635,
+  "attributes" : {
+    "0" : "O_LT"
+  },
+  "id" : 83,
+  "to" : 1693,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1635,
+  "attributes" : {
+    "0" : "O_LE"
+  },
+  "id" : 84,
+  "to" : 1694,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1635,
+  "attributes" : {
+    "0" : "O_GT"
+  },
+  "id" : 85,
+  "to" : 1695,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1635,
+  "attributes" : {
+    "0" : "O_GE"
+  },
+  "id" : 86,
+  "to" : 1696,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1636,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 87,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1636,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 88,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1636,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 89,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1636,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 90,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1636,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 91,
+  "to" : 1635,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1636,
+  "attributes" : {
+    "0" : "condition"
+  },
+  "id" : 92,
+  "to" : 1697,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1637,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 93,
+  "to" : 1624650455,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1638,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 94,
+  "to" : 1022269209,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1638,
+  "attributes" : {
+    "0" : "$@2"
+  },
+  "id" : 95,
+  "to" : 53,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1638,
+  "attributes" : {
+    "0" : "block"
+  },
+  "id" : 96,
+  "to" : 1698,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 52,
+  "attributes" : {
+    "0" : "TECKA"
+  },
+  "id" : 97,
+  "to" : 54,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1660,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 98,
+  "to" : 1645891407,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1660,
+  "attributes" : {
+    "0" : "O_PLUS"
+  },
+  "id" : 99,
+  "to" : 1666,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1660,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 100,
+  "to" : 1667,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1660,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 101,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1660,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 102,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1661,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 103,
+  "to" : 1646814153,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1662,
+  "attributes" : {
+    "0" : "STREDNIK"
+  },
+  "id" : 104,
+  "to" : 1699,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1663,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 105,
+  "to" : 1648663861,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1664,
+  "attributes" : {
+    "0" : "O_PLUS"
+  },
+  "id" : 106,
+  "to" : 1666,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1664,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 107,
+  "to" : 1667,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1664,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 108,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1664,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 109,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1664,
+  "attributes" : {
+    "0" : "ZAVORKA_P"
+  },
+  "id" : 110,
+  "to" : 1700,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1665,
+  "attributes" : {
+    "0" : "K_THEN"
+  },
+  "id" : 111,
+  "to" : 1722,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1666,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 112,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1666,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 113,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1666,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 114,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1666,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 115,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1666,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 116,
+  "to" : 1723,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1667,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 117,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1667,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 118,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1667,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 119,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1667,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 120,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1667,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 121,
+  "to" : 1724,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1668,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 122,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1668,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 123,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1668,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 124,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1668,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 125,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1668,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 126,
+  "to" : 1725,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1669,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 127,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1669,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 128,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1669,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 129,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1669,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 130,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1669,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 131,
+  "to" : 1726,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 53,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 132,
+  "to" : 33059147,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 53,
+  "attributes" : {
+    "0" : "vardecl"
+  },
+  "id" : 133,
+  "to" : 55,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1691,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 134,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1691,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 135,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1691,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 136,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1691,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 137,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1691,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 138,
+  "to" : 1727,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1692,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 139,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1692,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 140,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1692,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 141,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1692,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 142,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1692,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 143,
+  "to" : 1728,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1693,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 144,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1693,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 145,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1693,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 146,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1693,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 147,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1693,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 148,
+  "to" : 1729,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1694,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 149,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1694,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 150,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1694,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 151,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1694,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 152,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1694,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 153,
+  "to" : 1730,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1695,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 154,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1695,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 155,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1695,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 156,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1695,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 157,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1695,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 158,
+  "to" : 1731,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1696,
+  "attributes" : {
+    "0" : "CISLO"
+  },
+  "id" : 159,
+  "to" : 1630,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1696,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 160,
+  "to" : 1631,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1696,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 161,
+  "to" : 1632,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1696,
+  "attributes" : {
+    "0" : "ZAVORKA_L"
+  },
+  "id" : 162,
+  "to" : 1633,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1696,
+  "attributes" : {
+    "0" : "expression"
+  },
+  "id" : 163,
+  "to" : 1753,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1697,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 164,
+  "to" : 1680061839,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1697,
+  "attributes" : {
+    "0" : "$@7"
+  },
+  "id" : 165,
+  "to" : 1754,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1698,
+  "attributes" : {
+    "0" : "STREDNIK"
+  },
+  "id" : 166,
+  "to" : 1755,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1699,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 167,
+  "to" : 1681908695,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1700,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 168,
+  "to" : 1682834169,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 54,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 169,
+  "to" : 33088814,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1722,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 170,
+  "to" : 1703148965,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1722,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 171,
+  "to" : 1574,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1722,
+  "attributes" : {
+    "0" : "K_BEGIN"
+  },
+  "id" : 172,
+  "to" : 1575,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1722,
+  "attributes" : {
+    "0" : "K_IF"
+  },
+  "id" : 173,
+  "to" : 1576,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1722,
+  "attributes" : {
+    "0" : "K_WHILE"
+  },
+  "id" : 174,
+  "to" : 1598,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1722,
+  "attributes" : {
+    "0" : "K_CALL"
+  },
+  "id" : 175,
+  "to" : 1599,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1722,
+  "attributes" : {
+    "0" : "assignment"
+  },
+  "id" : 176,
+  "to" : 1601,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1722,
+  "attributes" : {
+    "0" : "callprocedure"
+  },
+  "id" : 177,
+  "to" : 1602,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1722,
+  "attributes" : {
+    "0" : "conditional"
+  },
+  "id" : 178,
+  "to" : 1603,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1722,
+  "attributes" : {
+    "0" : "whileloop"
+  },
+  "id" : 179,
+  "to" : 1604,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1722,
+  "attributes" : {
+    "0" : "command"
+  },
+  "id" : 180,
+  "to" : 1756,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1723,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 181,
+  "to" : 1704074346,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1723,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 182,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1723,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 183,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1724,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 184,
+  "to" : 1704997898,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1724,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 185,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1724,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 186,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1725,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 187,
+  "to" : 1705921450,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1726,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 188,
+  "to" : 1706845002,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1727,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 189,
+  "to" : 1707767531,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1727,
+  "attributes" : {
+    "0" : "O_PLUS"
+  },
+  "id" : 190,
+  "to" : 1666,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1727,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 191,
+  "to" : 1667,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1727,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 192,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1727,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 193,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1728,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 194,
+  "to" : 1708691083,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1728,
+  "attributes" : {
+    "0" : "O_PLUS"
+  },
+  "id" : 195,
+  "to" : 1666,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1728,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 196,
+  "to" : 1667,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1728,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 197,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1728,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 198,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1729,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 199,
+  "to" : 1709615286,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1729,
+  "attributes" : {
+    "0" : "O_PLUS"
+  },
+  "id" : 200,
+  "to" : 1666,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1729,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 201,
+  "to" : 1667,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1729,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 202,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1729,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 203,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1730,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 204,
+  "to" : 1710538838,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1730,
+  "attributes" : {
+    "0" : "O_PLUS"
+  },
+  "id" : 205,
+  "to" : 1666,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1730,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 206,
+  "to" : 1667,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1730,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 207,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1730,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 208,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1731,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 209,
+  "to" : 1711462390,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1731,
+  "attributes" : {
+    "0" : "O_PLUS"
+  },
+  "id" : 210,
+  "to" : 1666,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1731,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 211,
+  "to" : 1667,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1731,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 212,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1731,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 213,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 55,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 214,
+  "to" : 1026676262,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 55,
+  "attributes" : {
+    "0" : "K_VAR"
+  },
+  "id" : 215,
+  "to" : 56,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 55,
+  "attributes" : {
+    "0" : "procedures"
+  },
+  "id" : 216,
+  "to" : 57,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1753,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 217,
+  "to" : 1731779883,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1753,
+  "attributes" : {
+    "0" : "O_PLUS"
+  },
+  "id" : 218,
+  "to" : 1666,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1753,
+  "attributes" : {
+    "0" : "O_MINUS"
+  },
+  "id" : 219,
+  "to" : 1667,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1753,
+  "attributes" : {
+    "0" : "O_KRAT"
+  },
+  "id" : 220,
+  "to" : 1668,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1753,
+  "attributes" : {
+    "0" : "O_DELENO"
+  },
+  "id" : 221,
+  "to" : 1669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1754,
+  "attributes" : {
+    "0" : "K_DO"
+  },
+  "id" : 222,
+  "to" : 1757,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1755,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 223,
+  "to" : 1733624972,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1756,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 224,
+  "to" : 1734549516,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1757,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 225,
+  "to" : 1735472200,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1757,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 226,
+  "to" : 1574,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1757,
+  "attributes" : {
+    "0" : "K_BEGIN"
+  },
+  "id" : 227,
+  "to" : 1575,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1757,
+  "attributes" : {
+    "0" : "K_IF"
+  },
+  "id" : 228,
+  "to" : 1576,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1757,
+  "attributes" : {
+    "0" : "K_WHILE"
+  },
+  "id" : 229,
+  "to" : 1598,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1757,
+  "attributes" : {
+    "0" : "K_CALL"
+  },
+  "id" : 230,
+  "to" : 1599,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1757,
+  "attributes" : {
+    "0" : "assignment"
+  },
+  "id" : 231,
+  "to" : 1601,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1757,
+  "attributes" : {
+    "0" : "callprocedure"
+  },
+  "id" : 232,
+  "to" : 1602,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1757,
+  "attributes" : {
+    "0" : "conditional"
+  },
+  "id" : 233,
+  "to" : 1603,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1757,
+  "attributes" : {
+    "0" : "whileloop"
+  },
+  "id" : 234,
+  "to" : 1604,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 1757,
+  "attributes" : {
+    "0" : "command"
+  },
+  "id" : 235,
+  "to" : 1758,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1758,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 236,
+  "to" : 1736396651,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 56,
+  "attributes" : {
+    "0" : "IDENTIFIKATOR"
+  },
+  "id" : 237,
+  "to" : 1567,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 56,
+  "attributes" : {
+    "0" : "varlist"
+  },
+  "id" : 238,
+  "to" : 1568,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 57,
+  "attributes" : {
+    "0" : ""
+  },
+  "id" : 239,
+  "to" : 33178249,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 57,
+  "attributes" : {
+    "0" : "K_PROCEDURE"
+  },
+  "id" : 240,
+  "to" : 1569,
+  "text" : ""
+}, {
+  "archetype" : 1,
+  "from" : 57,
+  "attributes" : {
+    "0" : "$@3"
+  },
+  "id" : 241,
+  "to" : 1570,
   "text" : ""
 } ],
 "possibleEnumValues": {},

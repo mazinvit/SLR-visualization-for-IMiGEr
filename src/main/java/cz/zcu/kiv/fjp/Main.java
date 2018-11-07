@@ -1,10 +1,6 @@
 package cz.zcu.kiv.fjp;
 
-
-import cz.zcu.kiv.fjp.parser.DotParser;
-import cz.zcu.kiv.fjp.parser.GeneralParser;
-import cz.zcu.kiv.fjp.parser.SLRParser;
-import cz.zcu.kiv.fjp.serializer.DotSerializer;
+import cz.zcu.kiv.fjp.core.Dot2JSON;
 
 public class Main {
 
@@ -20,25 +16,21 @@ public class Main {
             }
 
             else {
-                DotParser parser = null;
                 String graphFile = null;
                 String outputFile = null;
 
                 if (args.length == 2) {
                     graphFile = args[0];
                     outputFile = args[1];
-                    parser = new GeneralParser(graphFile);
+
+                    Dot2JSON.serialize(graphFile, outputFile, false);
                 }
 
-                if (args.length == 3 && args[0].equals("--slr")) {
+                else if (args.length == 3 && args[0].equals("--slr")) {
                     graphFile = args[1];
                     outputFile = args[2];
-                    parser = new SLRParser(graphFile);
-                }
 
-                if(parser != null) {
-                    DotSerializer serializer = new DotSerializer(parser);
-                    serializer.serialize(outputFile);
+                    Dot2JSON.serialize(graphFile, outputFile, true);
                 }
 
                 else {
