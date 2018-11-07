@@ -1,8 +1,9 @@
 package cz.zcu.kiv.fjp;
 
 
-import cz.zcu.kiv.fjp.parser.SLRParser;
-import cz.zcu.kiv.fjp.serializer.SLRSerializer;
+import cz.zcu.kiv.fjp.parser.DotParser;
+import cz.zcu.kiv.fjp.parser.GeneralParser;
+import cz.zcu.kiv.fjp.serializer.DotSerializer;
 
 public class Main {
 
@@ -17,35 +18,9 @@ public class Main {
                 String graphFile = args[0];
                 String outputFile = args[1];
 
-                SLRParser parser = new SLRParser(graphFile, outputFile);
-                //parser.parseNodes();
-                SLRSerializer serializer = new SLRSerializer(parser);
+                DotParser parser = new GeneralParser(graphFile, outputFile);
+                DotSerializer serializer = new DotSerializer(parser);
                 serializer.serialize(outputFile);
-                //serializer.serialize(outputFile);
-
-                /*
-                List<Vertex> nodes = parser.parseNodes();
-                File nodeJson = new File("graph.json");
-
-                try {
-                    ObjectMapper om = new ObjectMapper();
-                    om.enable(SerializationFeature.INDENT_OUTPUT);
-                    StringBuilder sb = new StringBuilder();
-
-                    for(Vertex node : nodes) {
-                        sb.append(om.writeValueAsString(node));
-                    }
-
-                    OutputStreamWriter ow = new OutputStreamWriter(new FileOutputStream(nodeJson));
-                    ow.write(sb.toString());
-                    ow.flush();
-                    ow.close();
-                }
-
-                catch (Exception e) {
-                    System.out.println("Cannot create JSON.");
-                }
-                */
             }
         }
 

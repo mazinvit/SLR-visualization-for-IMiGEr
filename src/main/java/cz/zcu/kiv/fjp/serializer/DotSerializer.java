@@ -3,7 +3,7 @@ package cz.zcu.kiv.fjp.serializer;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.module.SimpleModule;
-import cz.zcu.kiv.fjp.parser.SLRParser;
+import cz.zcu.kiv.fjp.parser.DotParser;
 import cz.zcu.kiv.fjp.entities.*;
 
 import java.io.File;
@@ -11,11 +11,11 @@ import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
-public class SLRSerializer implements IDotSerializer {
+public class DotSerializer implements IDotSerializer {
 
-    SLRParser parser;
+    DotParser parser;
 
-    public SLRSerializer(SLRParser parser) {
+    public DotSerializer(DotParser parser) {
         this.parser = parser;
     }
 
@@ -30,13 +30,14 @@ public class SLRSerializer implements IDotSerializer {
         ArrayList<EdgeArchetype> edgeArchetypes = (ArrayList<EdgeArchetype>) parser.getEdgeArchetypes();
 
         File nodeJson = new File("graph.json");
+        System.out.println("Serializing...");
 
         try {
             ObjectMapper om = new ObjectMapper();
 
             SimpleModule module = new SimpleModule();
             module.addSerializer(Vertex.class, new VertexSerializer());
-            module.addSerializer(Edge.class, new SLREdgeSerializer());
+            module.addSerializer(Edge.class, new EdgeSerializer());
             om.registerModule(module);
             om.enable(SerializationFeature.INDENT_OUTPUT);
 
@@ -87,6 +88,10 @@ public class SLRSerializer implements IDotSerializer {
 
         catch (Exception e) {
             System.out.println("Cannot create JSON.");
+        }
+
+        finally {
+            System.out.println("Done.");
         }
     }
 }

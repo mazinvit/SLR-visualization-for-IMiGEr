@@ -7,237 +7,785 @@
 } ],
 "vertexArchetypes": 
 [ {
-  "name" : "state",
-  "text" : ""
-}, {
-  "name" : "acc",
-  "text" : ""
-}, {
-  "name" : "reduce",
+  "name" : "defaultVertex",
   "text" : ""
 } ],
 "edgeArchetypes": 
 [ {
-  "name" : "reduce",
-  "text" : ""
-}, {
-  "name" : "shift",
+  "name" : "defaultEdge",
   "text" : ""
 } ],
 "vertices": 
 [ {
-  "archetype" : 2,
+  "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 32939890,
+  "id" : 1544783264,
   "text" : "",
-  "name" : "R3"
-}, {
-  "archetype" : 2,
-  "attributes" : {
-     
-  },
-  "id" : 32939921,
-  "text" : "",
-  "name" : "R4"
-}, {
-  "archetype" : 1,
-  "attributes" : {
-     
-  },
-  "id" : 33058961,
-  "text" : "",
-  "name" : "Acc"
-}, {
-  "archetype" : 2,
-  "attributes" : {
-     
-  },
-  "id" : 33088783,
-  "text" : "",
-  "name" : "R1"
-}, {
-  "archetype" : 2,
-  "attributes" : {
-     
-  },
-  "id" : 33118605,
-  "text" : "",
-  "name" : "R2"
+  "name" : "1 BSD"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 0,
+  "id" : 1573412415,
   "text" : "",
-  "name" : "State 0\\n\\l  0 $accept: . exp $end\\l"
+  "name" : "2 BSD"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 1,
+  "id" : -572409163,
   "text" : "",
-  "name" : "State 1\\n\\l  3 a: \"0\" .\\l  4 b: \"0\" .\\l"
+  "name" : "2.8 BSD"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 2,
+  "id" : -543780012,
   "text" : "",
-  "name" : "State 2\\n\\l  0 $accept: exp . $end\\l"
+  "name" : "2.9 BSD"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 3,
+  "id" : 1602041566,
   "text" : "",
-  "name" : "State 3\\n\\l  1 exp: a . \";\"\\l"
+  "name" : "3 BSD"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 4,
+  "id" : 32969805,
   "text" : "",
-  "name" : "State 4\\n\\l  2 exp: b . \".\"\\l"
+  "name" : "32V"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 5,
+  "id" : 1630670717,
   "text" : "",
-  "name" : "State 5\\n\\l  0 $accept: exp $end .\\l"
+  "name" : "4 BSD"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 6,
+  "id" : -1582159846,
   "text" : "",
-  "name" : "State 6\\n\\l  1 exp: a \";\" .\\l"
+  "name" : "4.1 BSD"
 }, {
   "archetype" : 0,
   "attributes" : {
      
   },
-  "id" : 7,
+  "id" : -1553530695,
   "text" : "",
-  "name" : "State 7\\n\\l  2 exp: b \".\" .\\l"
+  "name" : "4.2 BSD"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -1524901544,
+  "text" : "",
+  "name" : "4.3 BSD"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -426503107,
+  "text" : "",
+  "name" : "5th Edition"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -297420388,
+  "text" : "",
+  "name" : "6th Edition"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -168337669,
+  "text" : "",
+  "name" : "7th Edition"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -39254950,
+  "text" : "",
+  "name" : "8th Edition"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 89827769,
+  "text" : "",
+  "name" : "9th Edition"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1032323690,
+  "text" : "",
+  "name" : "CB Unix 1"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1032323721,
+  "text" : "",
+  "name" : "CB Unix 2"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1032323752,
+  "text" : "",
+  "name" : "CB Unix 3"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -1590404045,
+  "text" : "",
+  "name" : "Mini Unix"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -2140022196,
+  "text" : "",
+  "name" : "PDP-11 Sys V"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -1809012522,
+  "text" : "",
+  "name" : "PWB 1.0"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -1809012460,
+  "text" : "",
+  "name" : "PWB 1.2"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -1808982731,
+  "text" : "",
+  "name" : "PWB 2.0"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 167439449,
+  "text" : "",
+  "name" : "System V.0"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 167439511,
+  "text" : "",
+  "name" : "System V.2"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 167439542,
+  "text" : "",
+  "name" : "System V.3"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -1225725813,
+  "text" : "",
+  "name" : "TS 4.0"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -796797112,
+  "text" : "",
+  "name" : "USG 1.0"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -796767321,
+  "text" : "",
+  "name" : "USG 2.0"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -796737530,
+  "text" : "",
+  "name" : "USG 3.0"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -905123397,
+  "text" : "",
+  "name" : "Ultrix-11"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -905121444,
+  "text" : "",
+  "name" : "Ultrix-32"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -1873414273,
+  "text" : "",
+  "name" : "UniPlus+"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -449194613,
+  "text" : "",
+  "name" : "Unix/TS 1.0"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -449135031,
+  "text" : "",
+  "name" : "Unix/TS 3.0"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 1416301150,
+  "text" : "",
+  "name" : "Unix/TS++"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : -1788434842,
+  "text" : "",
+  "name" : "Interdata"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 75697,
+  "text" : "",
+  "name" : "LSX"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 84428,
+  "text" : "",
+  "name" : "V7M"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 912918392,
+  "text" : "",
+  "name" : "Wollongong"
+}, {
+  "archetype" : 0,
+  "attributes" : {
+     
+  },
+  "id" : 84387824,
+  "text" : "",
+  "name" : "Xenix"
 } ],
 "edges": 
 [ {
   "archetype" : 0,
-  "from" : 0,
+  "from" : 1544783264,
   "attributes" : {
-    "0" : "\"0\""
+    "0" : "\"1 BSD\"-\"2 BSD\""
   },
   "id" : 0,
-  "to" : 1,
+  "to" : 1573412415,
   "text" : ""
 }, {
-  "archetype" : 1,
-  "from" : 0,
+  "archetype" : 0,
+  "from" : 1573412415,
   "attributes" : {
-    "0" : "exp"
+    "0" : "\"2 BSD\"-\"2.8 BSD\""
   },
   "id" : 1,
-  "to" : 2,
+  "to" : -572409163,
   "text" : ""
 }, {
-  "archetype" : 1,
-  "from" : 0,
+  "archetype" : 0,
+  "from" : -572409163,
   "attributes" : {
-    "0" : "a"
+    "0" : "\"2.8 BSD\"-\"2.9 BSD\""
   },
   "id" : 2,
-  "to" : 3,
+  "to" : -543780012,
   "text" : ""
 }, {
-  "archetype" : 1,
-  "from" : 0,
+  "archetype" : 0,
+  "from" : -572409163,
   "attributes" : {
-    "0" : "b"
+    "0" : "\"2.8 BSD\"-\"Ultrix-11\""
   },
   "id" : 3,
-  "to" : 4,
+  "to" : -905123397,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 1,
+  "from" : 1602041566,
   "attributes" : {
-    "0" : ""
+    "0" : "\"3 BSD\"-\"4 BSD\""
   },
   "id" : 4,
-  "to" : 32939890,
+  "to" : 1630670717,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 1,
+  "from" : 32969805,
   "attributes" : {
-    "0" : "[\".\"]"
+    "0" : "\"32V\"-\"3 BSD\""
   },
   "id" : 5,
-  "to" : 32939921,
+  "to" : 1602041566,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 2,
+  "from" : 1630670717,
   "attributes" : {
-    "0" : "$end"
+    "0" : "\"4 BSD\"-\"4.1 BSD\""
   },
   "id" : 6,
-  "to" : 5,
+  "to" : -1582159846,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 3,
+  "from" : -1582159846,
   "attributes" : {
-    "0" : "\";\""
+    "0" : "\"4.1 BSD\"-\"2.8 BSD\""
   },
   "id" : 7,
-  "to" : 6,
+  "to" : -572409163,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 4,
+  "from" : -1582159846,
   "attributes" : {
-    "0" : "\".\""
+    "0" : "\"4.1 BSD\"-\"4.2 BSD\""
   },
   "id" : 8,
-  "to" : 7,
+  "to" : -1553530695,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 5,
+  "from" : -1582159846,
   "attributes" : {
-    "0" : ""
+    "0" : "\"4.1 BSD\"-\"8th Edition\""
   },
   "id" : 9,
-  "to" : 33058961,
+  "to" : -39254950,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 6,
+  "from" : -1553530695,
   "attributes" : {
-    "0" : ""
+    "0" : "\"4.2 BSD\"-\"4.3 BSD\""
   },
   "id" : 10,
-  "to" : 33088783,
+  "to" : -1524901544,
   "text" : ""
 }, {
   "archetype" : 0,
-  "from" : 7,
+  "from" : -1553530695,
   "attributes" : {
-    "0" : ""
+    "0" : "\"4.2 BSD\"-\"Ultrix-32\""
   },
   "id" : 11,
-  "to" : 33118605,
+  "to" : -905121444,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -426503107,
+  "attributes" : {
+    "0" : "\"5th Edition\"-\"6th Edition\""
+  },
+  "id" : 12,
+  "to" : -297420388,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -426503107,
+  "attributes" : {
+    "0" : "\"5th Edition\"-\"PWB 1.0\""
+  },
+  "id" : 13,
+  "to" : -1809012522,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -297420388,
+  "attributes" : {
+    "0" : "\"6th Edition\"-\"1 BSD\""
+  },
+  "id" : 14,
+  "to" : 1544783264,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -297420388,
+  "attributes" : {
+    "0" : "\"6th Edition\"-\"Mini Unix\""
+  },
+  "id" : 15,
+  "to" : -1590404045,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -297420388,
+  "attributes" : {
+    "0" : "\"6th Edition\"-Interdata"
+  },
+  "id" : 16,
+  "to" : -1788434842,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -297420388,
+  "attributes" : {
+    "0" : "\"6th Edition\"-LSX"
+  },
+  "id" : 17,
+  "to" : 75697,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -297420388,
+  "attributes" : {
+    "0" : "\"6th Edition\"-Wollongong"
+  },
+  "id" : 18,
+  "to" : 912918392,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -168337669,
+  "attributes" : {
+    "0" : "\"7th Edition\"-\"32V\""
+  },
+  "id" : 19,
+  "to" : 32969805,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -168337669,
+  "attributes" : {
+    "0" : "\"7th Edition\"-\"8th Edition\""
+  },
+  "id" : 20,
+  "to" : -39254950,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -168337669,
+  "attributes" : {
+    "0" : "\"7th Edition\"-\"Ultrix-11\""
+  },
+  "id" : 21,
+  "to" : -905123397,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -168337669,
+  "attributes" : {
+    "0" : "\"7th Edition\"-\"UniPlus+\""
+  },
+  "id" : 22,
+  "to" : -1873414273,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -168337669,
+  "attributes" : {
+    "0" : "\"7th Edition\"-V7M"
+  },
+  "id" : 23,
+  "to" : 84428,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -168337669,
+  "attributes" : {
+    "0" : "\"7th Edition\"-Xenix"
+  },
+  "id" : 24,
+  "to" : 84387824,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -39254950,
+  "attributes" : {
+    "0" : "\"8th Edition\"-\"9th Edition\""
+  },
+  "id" : 25,
+  "to" : 89827769,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1032323690,
+  "attributes" : {
+    "0" : "\"CB Unix 1\"-\"CB Unix 2\""
+  },
+  "id" : 26,
+  "to" : 1032323721,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1032323721,
+  "attributes" : {
+    "0" : "\"CB Unix 2\"-\"CB Unix 3\""
+  },
+  "id" : 27,
+  "to" : 1032323752,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1032323752,
+  "attributes" : {
+    "0" : "\"CB Unix 3\"-\"PDP-11 Sys V\""
+  },
+  "id" : 28,
+  "to" : -2140022196,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1032323752,
+  "attributes" : {
+    "0" : "\"CB Unix 3\"-\"TS 4.0\""
+  },
+  "id" : 29,
+  "to" : -1225725813,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1032323752,
+  "attributes" : {
+    "0" : "\"CB Unix 3\"-\"Unix/TS++\""
+  },
+  "id" : 30,
+  "to" : 1416301150,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -1809012522,
+  "attributes" : {
+    "0" : "\"PWB 1.0\"-\"PWB 1.2\""
+  },
+  "id" : 31,
+  "to" : -1809012460,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -1809012522,
+  "attributes" : {
+    "0" : "\"PWB 1.0\"-\"USG 1.0\""
+  },
+  "id" : 32,
+  "to" : -796797112,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -1809012460,
+  "attributes" : {
+    "0" : "\"PWB 1.2\"-\"PWB 2.0\""
+  },
+  "id" : 33,
+  "to" : -1808982731,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -1808982731,
+  "attributes" : {
+    "0" : "\"PWB 2.0\"-\"Unix/TS 3.0\""
+  },
+  "id" : 34,
+  "to" : -449135031,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 167439449,
+  "attributes" : {
+    "0" : "\"System V.0\"-\"System V.2\""
+  },
+  "id" : 35,
+  "to" : 167439511,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 167439511,
+  "attributes" : {
+    "0" : "\"System V.2\"-\"System V.3\""
+  },
+  "id" : 36,
+  "to" : 167439542,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -1225725813,
+  "attributes" : {
+    "0" : "\"TS 4.0\"-\"System V.0\""
+  },
+  "id" : 37,
+  "to" : 167439449,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -796797112,
+  "attributes" : {
+    "0" : "\"USG 1.0\"-\"CB Unix 1\""
+  },
+  "id" : 38,
+  "to" : 1032323690,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -796797112,
+  "attributes" : {
+    "0" : "\"USG 1.0\"-\"USG 2.0\""
+  },
+  "id" : 39,
+  "to" : -796767321,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -796767321,
+  "attributes" : {
+    "0" : "\"USG 2.0\"-\"USG 3.0\""
+  },
+  "id" : 40,
+  "to" : -796737530,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -796737530,
+  "attributes" : {
+    "0" : "\"USG 3.0\"-\"Unix/TS 3.0\""
+  },
+  "id" : 41,
+  "to" : -449135031,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -449194613,
+  "attributes" : {
+    "0" : "\"Unix/TS 1.0\"-\"Unix/TS 3.0\""
+  },
+  "id" : 42,
+  "to" : -449135031,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -449135031,
+  "attributes" : {
+    "0" : "\"Unix/TS 3.0\"-\"TS 4.0\""
+  },
+  "id" : 43,
+  "to" : -1225725813,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 1416301150,
+  "attributes" : {
+    "0" : "\"Unix/TS++\"-\"TS 4.0\""
+  },
+  "id" : 44,
+  "to" : -1225725813,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -1788434842,
+  "attributes" : {
+    "0" : "Interdata-\"7th Edition\""
+  },
+  "id" : 45,
+  "to" : -168337669,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -1788434842,
+  "attributes" : {
+    "0" : "Interdata-\"PWB 2.0\""
+  },
+  "id" : 46,
+  "to" : -1808982731,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : -1788434842,
+  "attributes" : {
+    "0" : "Interdata-\"Unix/TS 3.0\""
+  },
+  "id" : 47,
+  "to" : -449135031,
+  "text" : ""
+}, {
+  "archetype" : 0,
+  "from" : 84428,
+  "attributes" : {
+    "0" : "V7M-\"Ultrix-11\""
+  },
+  "id" : 48,
+  "to" : -905123397,
   "text" : ""
 } ],
 "possibleEnumValues": {},

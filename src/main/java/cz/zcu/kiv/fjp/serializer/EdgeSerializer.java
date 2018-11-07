@@ -9,13 +9,13 @@ import cz.zcu.kiv.fjp.entities.EdgeAttributeObj;
 
 import java.io.IOException;
 
-public class SLREdgeSerializer extends StdSerializer<Edge> {
+public class EdgeSerializer extends StdSerializer<Edge> {
 
-    public SLREdgeSerializer() {
+    public EdgeSerializer() {
         this(null);
     }
 
-    public SLREdgeSerializer(Class<Edge> t) {
+    public EdgeSerializer(Class<Edge> t) {
         super(t);
     }
 
