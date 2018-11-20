@@ -1,0 +1,77 @@
+\documentclass[
+12pt,
+a4paper,
+pdftex,
+czech,
+titlepage
+]{report}
+
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage[T1]{fontenc}
+\usepackage{amsfonts}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+\titleformat{\chapter}
+  {\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{0ex plus 1ex minus .2ex}{2.0ex plus .2ex}
+
+\begin{document}
+
+\begin{titlepage}
+	\vspace*{-2cm}
+	{\centering\includegraphics[scale=1.0]{logo.pdf}\par}
+	\centering
+	\vspace*{2cm}
+	{\Large Semestrální práce z KIV/FJP\par}
+	\vspace{1.5cm}
+	{\Huge\bfseries Tvorba dat pro program IMiGEr\par}
+	\vspace{2cm}
+
+	{\Large Vít Mazín, Martin Matas\par}
+	{\Large A18N0096P, A18N0095P\par}
+	{\Large mazinv@students.zcu.cz, martinm@students.zcu.cz\par}
+
+	\vfill
+
+	{\Large 20.\,11.\,2018}
+\end{titlepage}
+
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+
+\chapter{Zadání}
+\setcounter{page}{1}
+\paragraph{\parindent=4em}{
+Tématem semestrální práce bude převedení výstupního grafu z programu Bison do formátu JSON pro program IMiGEr, který byl vytvořen na Katedře informační a výpočetní techniky.
+}
+
+\end{document}

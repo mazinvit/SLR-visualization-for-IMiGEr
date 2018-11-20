@@ -1,0 +1,3 @@
+\select@language {czech}
+\contentsline {chapter}{\numberline {1}Zad\IeC {\'a}n\IeC {\'\i }}{1}
+\contentsline {paragraph}{\parindent =4em}{1}
