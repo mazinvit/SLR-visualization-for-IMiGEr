@@ -19,7 +19,12 @@ public class DotSerializer implements IDotSerializer {
         this.parser = parser;
     }
 
-    public void serialize(String outpurFile) {
+    /**
+     * Method calls parser and then saves output JSON into given output file.
+     *
+     * @param outputFile Path to output file
+     */
+    public void serialize(String outputFile) {
 
         ArrayList<sun.security.provider.certpath.Vertex> vertices = new ArrayList<sun.security.provider.certpath.Vertex>();
 
@@ -29,7 +34,7 @@ public class DotSerializer implements IDotSerializer {
         ArrayList<VertexArchetype> vertexArchetypes = (ArrayList<VertexArchetype>) parser.getVertexArchetypes();
         ArrayList<EdgeArchetype> edgeArchetypes = (ArrayList<EdgeArchetype>) parser.getEdgeArchetypes();
 
-        File nodeJson = new File(outpurFile);
+        File nodeJson = new File(outputFile);
         System.out.println("Serializing...");
 
         try {
